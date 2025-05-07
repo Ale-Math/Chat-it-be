@@ -1,0 +1,20 @@
+{
+  "name": "chatit-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ale-Math/Chat-it-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ale-Math/Chat-it-be/issues"
+  },
+  "homepage": "https://github.com/Ale-Math/Chat-it-be#readme",
+  "description": ""
+}
