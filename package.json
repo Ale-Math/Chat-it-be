@@ -16,5 +16,12 @@
     "url": "https://github.com/Ale-Math/Chat-it-be/issues"
   },
   "homepage": "https://github.com/Ale-Math/Chat-it-be#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0"
+  }
 }
