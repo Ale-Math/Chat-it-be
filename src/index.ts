@@ -3,10 +3,11 @@ import cors from "cors"
 import 'dotenv/config';
 import { userRouter } from "./routes/userRoute";
 import { adminRouter } from "./routes/adminRoute";
-
+import { rateLimiter } from "./middlewares/rateLimiter";
 
 const app = express();
 
+app.use(rateLimiter);
 app.use(express.json());
 app.use(cors());
 
