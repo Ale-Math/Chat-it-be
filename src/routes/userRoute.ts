@@ -14,7 +14,7 @@ userRouter.post("/signup", async (req: Request, res: Response) => {
 
     // DB Call to check if user exists
 
-    const hashedPassword = bycrpt.hashSync(data.password);
+    const hashedPassword = bycrpt.hashSync(data.password, 2);
 
     // DB call to create user
 
