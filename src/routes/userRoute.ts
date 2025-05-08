@@ -2,6 +2,8 @@ import express, { Request, Response } from "express";
 import { userSigninSchema, userSignupSchema } from "../types/userSchema";
 import bycrpt from "bcrypt";
 import jwt from "jsonwebtoken"
+import 'dotenv/config';
+
 
 
 
