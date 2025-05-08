@@ -1,9 +1,9 @@
 import express from "express";
 import cors from "cors"
 import 'dotenv/config';
-import { userRouter } from "./routes/userRoute";
-import { adminRouter } from "./routes/adminRoute";
-import { rateLimiter } from "./middlewares/rateLimiter";
+import { userRouter } from "../routes/userRoute";
+import { adminRouter } from "../routes/adminRoute";
+import { rateLimiter } from "../middlewares/rateLimiter";
 
 const app = express();
 
